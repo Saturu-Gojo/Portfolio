@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Smooth scrolling for navbar links */
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Better body styling */
+body {
+  @apply bg-white text-gray-900 dark:bg-slate-950 dark:text-gray-200 transition-colors duration-300;
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* Floating animation for hero image */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+/* Apply animation utility */
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}

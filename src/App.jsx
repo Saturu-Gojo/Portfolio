@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <div className="bg-slate-950 text-gray-200 font-sans">
+    <div className="bg-white dark:bg-slate-950 text-black dark:text-gray-200 min-h-screen">
       <Navbar />
       <Hero />
       <About />

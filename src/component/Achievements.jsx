@@ -1,9 +1,9 @@
 export default function Achievements() {
   return (
-    <section className="bg-slate-900 py-20">
+    <section className="py-20 bg-gray-50 dark:bg-slate-900">
       <div className="max-w-6xl mx-auto px-6">
 
-        <h2 className="text-3xl font-bold text-indigo-400 mb-12">
+        <h2 className="text-3xl font-bold text-indigo-600 dark:text-indigo-400 mb-12">
           Achievements
         </h2>
 
@@ -11,7 +11,7 @@ export default function Achievements() {
 
           {/* LeetCode */}
 
-          <div className="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition">
+          <div className="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition duration-300">
 
             <img
               src="/Leetcode.png"
@@ -20,15 +20,15 @@ export default function Achievements() {
             />
 
             <div className="p-6">
-              <h3 className="font-semibold text-lg mb-2">
+              <h3 className="font-semibold text-lg mb-2 text-gray-800 dark:text-white">
                 LeetCode — Knight
               </h3>
 
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-600 dark:text-gray-400 text-sm">
                 Rating: 2039
               </p>
 
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-600 dark:text-gray-400 text-sm">
                 Global Rank 245 (Biweekly)
               </p>
             </div>
@@ -37,7 +37,7 @@ export default function Achievements() {
 
           {/* Codeforces */}
 
-          <div className="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition">
+          <div className="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition duration-300">
 
             <img
               src="/codeforces.png"
@@ -46,15 +46,15 @@ export default function Achievements() {
             />
 
             <div className="p-6">
-              <h3 className="font-semibold text-lg mb-2">
+              <h3 className="font-semibold text-lg mb-2 text-gray-800 dark:text-white">
                 Codeforces — Pupil
               </h3>
 
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-600 dark:text-gray-400 text-sm">
                 Rating: 1282
               </p>
 
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-600 dark:text-gray-400 text-sm">
                 Round Rank: 2921
               </p>
             </div>
@@ -63,39 +63,35 @@ export default function Achievements() {
 
           {/* K3PC Contest */}
 
-          <div className="bg-slate-800 rounded-xl overflow-hidden shadow-lg group">
+          <div className="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg group">
 
-  <div className="relative h-48">
+            <div className="relative h-48">
 
-    {/* Default Image */}
+              <img
+                src="/k3pc1.jpeg"
+                alt="K3PC Contest"
+                className="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 group-hover:opacity-0"
+              />
 
-    <img
-      src="/k3pc1.jpeg"
-      alt="K3PC Contest"
-      className="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 group-hover:opacity-0"
-    />
+              <img
+                src="/k3pc2.jpeg"
+                alt="K3PC Contest Extra"
+                className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+              />
 
-    {/* Hover Image */}
+            </div>
 
-    <img
-      src="/k3pc2.jpeg"
-      alt="K3PC Contest Extra"
-      className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-    />
+            <div className="p-6">
+              <h3 className="font-semibold text-lg mb-2 text-gray-800 dark:text-white">
+                K3PC Contest
+              </h3>
 
-  </div>
+              <p className="text-gray-600 dark:text-gray-400 text-sm">
+                Secured 5th Position
+              </p>
+            </div>
 
-  <div className="p-6">
-    <h3 className="font-semibold text-lg mb-2">
-      K3PC Contest
-    </h3>
-
-    <p className="text-gray-400 text-sm">
-      Secured 5th Position
-    </p>
-  </div>
-
-</div>
+          </div>
 
         </div>
       </div>
