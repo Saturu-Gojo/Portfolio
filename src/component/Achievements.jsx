@@ -25,11 +25,15 @@ export default function Achievements() {
               </h3>
 
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                Rating: 2039
+                Highest Rating: 2039
               </p>
 
-              <p className="text-gray-600 dark:text-gray-400 text-sm">
-                Global Rank 245 (Biweekly)
+              <p className="text-gray-600 dark:text-gray-400 text-sm mt-1">
+                Global Rank 245 in Biweekly Contest 152
+              </p>
+              
+              <p className="text-gray-600 dark:text-gray-400 text-sm mt-1">
+                Global Rank 1558 in Weekly Contest 441
               </p>
             </div>
 
@@ -51,11 +55,15 @@ export default function Achievements() {
               </h3>
 
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                Rating: 1282
+                Highest Rating: 1282
               </p>
 
-              <p className="text-gray-600 dark:text-gray-400 text-sm">
-                Round Rank: 2921
+              <p className="text-gray-600 dark:text-gray-400 text-sm mt-1">
+                Global Rank 2921 (Div. 3) out of 20000+
+              </p>
+
+              <p className="text-gray-600 dark:text-gray-400 text-sm mt-1">
+                Global Rank 5305 (Div. 4) of 21000+
               </p>
             </div>
 
@@ -87,7 +95,7 @@ export default function Achievements() {
               </h3>
 
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                Secured 5th Position
+                Scored 5th Position in algorithmic challenge
               </p>
             </div>
 

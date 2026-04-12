@@ -21,7 +21,7 @@ export default function Hero() {
           </h1>
 
           <h3 className="text-2xl text-gray-700 dark:text-gray-400 mb-6">
-            Competitive Programmer & Frontend Developer
+            Full-stack Developer
           </h3>
 
           <p className="text-gray-600 dark:text-gray-400 mb-8">

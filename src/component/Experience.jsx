@@ -13,25 +13,29 @@ export default function Experience() {
 
           <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-md hover:-translate-y-1 hover:shadow-xl transition">
             <h3 className="font-semibold text-lg text-gray-800 dark:text-white">
-              Frontend Developer Intern — Hindalco
+              Frontend Developer Intern — Hindalco Industries Limited, On-Site
             </h3>
-
-            <p className="text-gray-600 dark:text-gray-400 mt-2">
-              Built responsive React components and improved application
-              performance through UI optimization.
+            
+            <p className="text-sm text-indigo-600 dark:text-indigo-400 font-medium mt-1">
+              Web Development Team <span className="text-gray-500 font-normal ml-2">| Jun 2025 - Aug 2025</span>
             </p>
+
+            <ul className="text-gray-600 dark:text-gray-400 mt-3 list-disc list-outside ml-4 space-y-1 text-sm border-t border-gray-100 dark:border-slate-700 pt-3">
+              <li>Built responsive UI components and migrated legacy JavaScript modules to TypeScript for better type safety.</li>
+              <li>Improved application speed through algorithm optimization and React performance tuning.</li>
+              <li>Collaborated with backend teams to integrate RESTful APIs and optimized database query handling.</li>
+            </ul>
           </div>
 
           {/* ATL Trainer */}
 
           <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-md hover:-translate-y-1 hover:shadow-xl transition">
             <h3 className="font-semibold text-lg text-gray-800 dark:text-white">
-              ATL Trainer
+              ATL Trainer and Teacher
             </h3>
 
-            <p className="text-gray-600 dark:text-gray-400 mt-2">
-              Conducted robotics workshops, mentored students in programming,
-              and organized technical learning activities.
+            <p className="text-gray-600 dark:text-gray-400 mt-2 text-sm leading-relaxed">
+              Mentored students in robotics and competitive coding; supported curriculum integration of maker skills and IoT at JNV Sonebhadra.
             </p>
           </div>
 

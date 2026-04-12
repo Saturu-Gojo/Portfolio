@@ -13,25 +13,29 @@ export default function Projects() {
 
           <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-md hover:-translate-y-2 hover:shadow-xl transition duration-300">
 
-            <h3 className="text-xl font-semibold text-gray-800 dark:text-white">
-              Rubik Cube Solver
-            </h3>
+            <div className="flex justify-between items-start mb-2">
+              <h3 className="text-xl font-semibold text-gray-800 dark:text-white">
+                Rubic-Cube-Solver
+              </h3>
+              <span className="text-sm text-gray-500">Jul 2025</span>
+            </div>
 
-            <p className="text-gray-600 dark:text-gray-400 mt-2">
-              Provides systematic steps to solve the cube using a web interface.
-            </p>
+            <ul className="text-gray-600 dark:text-gray-400 mt-2 list-disc list-outside ml-4 space-y-1 text-sm">
+              <li>Developed a full-stack application providing systematic steps to solve a Rubik's Cube.</li>
+              <li>Integrated a hybrid database approach using MongoDB for flexible state storage and MySQL for structured user data.</li>
+            </ul>
 
-            <p className="mt-3 text-sm text-indigo-600 dark:text-indigo-400">
-              Tech: HTML • CSS • JavaScript • Tailwind • MySQL
+            <p className="mt-4 text-sm font-medium text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-slate-700/50 p-2 rounded">
+              Tech Stack: TypeScript, React, Node.js, MongoDB, MySQL, Tailwind CSS
             </p>
 
             <a
               href="https://github.com/Saturu-Gojo/Rubic-Cube-Solver"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4 text-indigo-600 dark:text-indigo-400 hover:underline"
+              className="inline-block mt-4 text-indigo-600 dark:text-indigo-400 hover:underline font-medium"
             >
-              View on GitHub →
+              GitHub Repository →
             </a>
 
           </div>

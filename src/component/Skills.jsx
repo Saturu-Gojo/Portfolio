@@ -1,8 +1,9 @@
 const Skills = () => {
   const skills = [
-    "C/C++", "Python", "JavaScript", "SQL",
-    "React", "Tailwind", "Bootstrap",
-    "DSA", "Problem Solving"
+    "C/C++", "TypeScript", "JavaScript", "Python", "SQL", 
+    "Full-stack (MERN)", "React.js", "Node.js", "Express", 
+    "MongoDB", "MySQL", "Tailwind CSS", 
+    "Data Structures & Algorithms", "Problem Solving", "Computer Networks"
   ];
 
   return (
